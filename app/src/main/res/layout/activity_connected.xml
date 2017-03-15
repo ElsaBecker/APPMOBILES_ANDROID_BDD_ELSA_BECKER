@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elsa.tpapplimobile_bdd_beckerelsa.ConnectedActivity">
+
+    <EditText
+        android:id="@+id/editchapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editchapter"
+        android:layout_below="@+id/editchapter"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        android:minHeight="179dp"
+        tools:height="0dp" />
+
+    <Button
+        android:id="@+id/addNewEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editdesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="Ajouter le chapitre" />
+</RelativeLayout>
